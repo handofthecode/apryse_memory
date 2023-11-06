@@ -1,0 +1,125 @@
+/* Override PdfTron Classes */
+
+/* .hide-in-tablet {
+  display: initial !important;
+}
+
+.hide-in-mobile {
+  display: initial !important;
+}
+
+.hide-in-small-mobile {
+  display: initial !important;
+} */
+
+/* Document Container */
+
+.document-content-container {
+  width: 100vw !important;
+}
+
+/* Header */
+.PageNavOverlay {
+  position: fixed !important;
+}
+
+.Overlay.PageNavOverlay.FadeOut {
+  opacity: 0.25 !important;
+}
+
+/* button[data-element="leftPanelButton"] {
+  display: none;
+} */
+
+.divider {
+  display: none;
+}
+
+.hide-in-small-mobile {
+  display: initial !important;
+}
+
+/* SEARCH PANEL */
+.right-panel {
+  border-bottom: 1px #ddd solid;
+  height: 100px !important;
+}
+
+.divider .options {
+  flex-direction: column;
+}
+
+.divider .footer {
+  position: relative;
+  top: -30px;
+}
+
+.results-found {
+  position: absolute;
+  top: -20px;
+  right: 0px;
+}
+
+.results-spinner {
+  position: absolute;
+  top: -30px;
+  right: 100px;
+}
+
+.SearchPanel {
+  padding: 8px 0 0 8px !important;
+}
+
+.HeaderItems {
+  margin-right: 0 !important;
+}
+
+.HeaderItems > .Button,
+.HeaderItems > .toggle-element-button {
+  margin: 0 2px !important;
+}
+
+/* WHILE PDF LOADING  */
+
+.document:empty:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  border-top-color: #000;
+  animation: spinner 0.6s linear infinite;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .document:empty {
+  position: absolute;
+  top: calc(50% - 4em);
+  left: calc(50% - 4em);
+  width: 6em;
+  height: 6em;
+  border: 1.1em solid rgba(0, 0, 0, 0.2);
+  border-left: 1.1em solid #000000;
+  border-radius: 50%;
+  animation: load8 1.1s infinite linear;
+} */
+
+/* @keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
