@@ -8,6 +8,7 @@
     "calibrate": "kalibre et",
     "cancel": "İptal",
     "confirm": "Onaylamak",
+    "currentPageIs": "Geçerli sayfa:",
     "clear": "Temizlemek",
     "clearAll": "Hepsini temizle",
     "close": "Kapat",
@@ -16,12 +17,17 @@
     "comment": "Yorum",
     "reply": "Cevap ekle",
     "copy": "kopyala",
+    "cut": "Kesmek",
+    "paste": "Yapıştırmak",
+    "pasteWithoutFormatting": "biçimlendirmeden yapıştır",
     "delete": "Silmek",
+    "deleted": "silindi",
     "group": "Grup",
     "ungroup": "Grubu çöz",
     "download": "İndirmek",
     "edit": "Düzenlemek",
     "extract": "Çıkarmak",
+    "extractPage": "Sayfayı Çıkart",
     "enterFullscreen": "Tam ekran",
     "exitFullscreen": "Tam ekrandan çık",
     "fit": "Yerleştirmek",
@@ -29,6 +35,7 @@
     "fitToWidth": "Genişliğe sığdır",
     "more": "Daha",
     "openFile": "Açık dosya",
+    "page": "Sayfa",
     "pagePrev": "Önceki sayfa",
     "pageNext": "Sonraki Sayfa",
     "pageSet": "Sayfa ayarla",
@@ -41,6 +48,12 @@
     "rotate3D": "Döndür",
     "rotateClockwise": "Saat Yönünde Döndür",
     "rotateCounterClockwise": "Saat yönünün tersine çevirin",
+    "rotatedClockwise": "saat yönünde döndürüldü",
+    "rotatedCounterClockwise": "saat yönünün tersine döndürüldü",
+    "rotationIs": "geçerli sayfa rotasyonu",
+    "movedToBottomOfDocument": "belgenin altına taşındı",
+    "movedToTopofDocument": "belgenin en üstüne taşındı",
+    "extracted": "çıkarılan",
     "save": "Kayıt etmek",
     "post": "Postalamak",
     "create": "Yaratmak",
@@ -53,6 +66,7 @@
     "zoomIn": "Yakınlaştır",
     "zoomOut": "Uzaklaştırmak",
     "zoomSet": "Yakınlaştırmayı ayarla",
+    "zoomChanged": "Geçerli yakınlaştırma",
     "zoomControls": "Yakınlaştırma Kontrolleri",
     "draw": "Çizmek",
     "type": "Tip",
@@ -68,16 +82,22 @@
     "exit": "çıkış",
     "addOption": "Seçenek Ekle",
     "formFieldEdit": "Form Alanını Düzenle",
+    "formFieldEditMode": "Form Alanlarını Düzenle",
     "viewShortCutKeysFor3D": "Kısayol Tuşlarını Görüntüle",
     "markAllRead": "Tümünü okundu olarak işaretle",
+    "pageInsertion": "Sayfa Ekleme",
     "insertPage": "Sayfa Ekleme",
     "insert": "Sokmak",
     "pageManipulation": "Sayfa Manipülasyonu",
     "replace": "Yer değiştirmek",
+    "replacePage": "Sayfayı Değiştir",
+    "modal": "modal",
+    "isOpen": "açık",
     "setDestination": "Hedef belirlemek",
     "showLess": "daha az göster",
     "showMore": "...daha fazla",
     "chooseFile": "Bir dosya seçin",
+    "changeDate": "Tarihi değiştir",
     "browse": "Dosyalara Gözat",
     "selectYourOption": "Seçeneğinizi seçin",
     "open": "Açık",
@@ -85,6 +105,9 @@
     "select": "Seçme",
     "moveToTop": "En üste taşı",
     "moveToBottom": "Aşağıya taşı",
+    "movePageToTop": "Sayfayı En Üste Taşı",
+    "movePageToBottom": "Sayfayı Alta Taşı",
+    "backToMenu": "Menüye dön",
     "redactPages": "Sayfaları yeniden düzenleyin",
     "playAudio": "ses çal",
     "pauseAudio": "ses duraklatma",
@@ -95,7 +118,13 @@
     "multiReplyAnnotations": "Seçili ek açıklamaları yanıtla ({{count}})",
     "comparePages": "Sayfaları karşılaştır",
     "startComparison": "Karşılaştırmayı Başlat",
-    "back": "Geri"
+    "showComparison": "Karşılaştırmayı Göster",
+    "back": "Geri",
+    "clearSignature": "İmzayı temizle",
+    "readOnlySignature": "Salt okunur imza silinemez",
+    "newDocument": "Yeni belge",
+    "sideBySideView": "Yan Yana Görünüm",
+    "pageNumberInput": "Sayfa numarası girişi"
   },
   "annotation": {
     "areaMeasurement": "Alan",
@@ -109,6 +138,8 @@
     "formFillCheckmark": "kene",
     "formFillCross": "Geçmek",
     "distanceMeasurement": "Mesafe",
+    "rectangularAreaMeasurement": "Dikdörtgen Alan",
+    "ellipseMeasurement": "Elips Alanı",
     "countMeasurement": "sayım ölçümü",
     "ellipse": "Elips",
     "eraser": "Silgi",
@@ -129,6 +160,7 @@
     "redact": "Yazıya dökmek",
     "formFillDot": "Nokta",
     "signature": "İmza",
+    "snipping": "Kesme Aracı",
     "squiggly": "dalgalı",
     "stamp": "Damga vurmak",
     "stickyNote": "Not",
@@ -216,6 +248,8 @@
     "watermarkPanel": "Filigran Paneli"
   },
   "message": {
+    "showMore": "Daha fazla göster",
+    "showLess": "Daha az göster",
     "toolsOverlayNoPresets": "Ön Ayar Yok",
     "badDocument": "Belge yüklenemedi. Belge bozuk veya geçerli değil.",
     "customPrintPlaceholder": "Örneğin. 3, 4-10",
@@ -231,6 +265,7 @@
     "noAttachments": "Bu belgenin eki yok.",
     "noResults": "Sonuç bulunamadı.",
     "numResultsFound": "sonuçlar bulundu",
+    "loadError": "Belge Yükleme Hatası",
     "notSupported": "Bu dosya tipi desteklenmiyor.",
     "passwordRequired": "şifre gerekli",
     "enterPasswordPlaceholder": "Parolanı Gir",
@@ -250,6 +285,7 @@
     "errorEnterMeasurement": "Girdiğiniz sayı geçersiz, 7,5 veya 7 1/2 gibi değerler girebilirsiniz.",
     "linkURLorPage": "Bağlantı URL'si veya Sayfa",
     "warning": "Uyarı",
+    "svgMalicious": "SVG betiği güvenlik nedeniyle yok sayıldı",
     "enterContentEditingMode": "İçerik düzenleme moduna girmek üzeresiniz.",
     "existingAnnotationWarning": "Mevcut ek açıklamalar, düzenlendikten sonra metinle eşleşmeyebilir.",
     "changesCannotBeUndone": "Yapılan herhangi bir değişiklik geri alınamaz.",
@@ -333,6 +369,10 @@
     "colorPalette": {
       "colorLabel": "Renk"
     },
+    "colorPalettePicker": {
+      "addColor": "Yeni renk ekle",
+      "selectColor": "Renk seç"
+    },
     "displayMode": {
       "layout": "Sayfa düzeni",
       "pageTransition": "Sayfa Geçişi"
@@ -379,7 +419,8 @@
       "qualityHigh": "Yüksek",
       "includeAnnotations": "Ek açıklamaları dahil et",
       "includeComments": "Yorumları dahil et",
-      "printSettings": "Yazdırma Ayarları"
+      "printSettings": "Yazdırma Ayarları",
+      "printGrayscale": "Gri Tonlamalı Yazdır"
     },
     "printInfo": {
       "author": "Yazar",
@@ -425,12 +466,10 @@
       "drawSignature": "İmza Çek*",
       "drawInitial": "Baş Harflerini Çiz*",
       "pickInitialsFile": "Baş Harfleri Seçin",
-      "noSignatures": "Şu anda kayıtlı imza yok."
+      "noSignatures": "Şu anda kayıtlı imza yok.",
+      "fontStyle": "yazı stili"
     },
     "pageReplacementModal": {
-      "dragAndDrop": "Dosyanızı buraya sürükleyip bırakın",
-      "selectFile": "Dosyanızı buradan seçin",
-      "or": "Veya",
       "yourFiles": "Dosyalarınız",
       "chooseFile": "Bir dosya seçin",
       "localFile": "Yerel dosya",
@@ -447,7 +486,9 @@
       "filters": "filtreler",
       "user": "kullanıcı",
       "type": "Tip",
-      "status": "Durum"
+      "status": "Durum",
+      "filterSettings": "Filtre Ayarları",
+      "filterDocument": "Belge ve yorum panelini filtrele"
     },
     "state": {
       "accepted": "Kabul edilmiş",
@@ -474,6 +515,9 @@
       "radius": "yarıçap",
       "count": "Saymak",
       "length": "Uzunluk"
+    },
+    "freeTextOption": {
+      "autoSizeFont": "Yazı tipi boyutunu dinamik olarak ölçeklendirin"
     },
     "measurementOption": {
       "scale": "Ölçek"
@@ -512,10 +556,20 @@
         "ifToContinue": "Devam etmek istediğinizden emin misiniz?"
       }
     },
+    "contentEdit": {
+      "deletionModal": {
+        "title": "İçeriği Sil",
+        "message": "Seçilen içeriği silmek istediğinizden emin misiniz? Bu geri alınamaz."
+      },
+      "digitalSign": {
+        "title": "Uyarı Mühürlü Belge",
+        "message": "Bu belge imzalanmıştır ve değiştirilemez veya değiştirilemez."
+      }
+    },
     "stylePopup": {
       "textStyle": "Yazı stili",
       "colors": "Renkler",
-      "invalidFontSize": "Yazı tipi boyutu şundan küçük olmalıdır:",
+      "invalidFontSize": "Yazı tipi boyutu aşağıdaki aralıkta olmalıdır",
       "labelText": "Etiket Metni",
       "labelTextPlaceholder": "Etiket metni ekle"
     },
@@ -557,7 +611,12 @@
     "thumbnailPanel": {
       "delete": "Silmek",
       "rotateClockwise": "Saat yönünde",
-      "rotateCounterClockwise": "saat yönünün tersine"
+      "rotateCounterClockwise": "saat yönünün tersine",
+      "rotatePageClockwise": "Sayfayı Saat Yönünde Döndür",
+      "rotatePageCounterClockwise": "Sayfayı Saat Yönünün Tersine Döndür",
+      "moreOptions": "Daha fazla seçenek",
+      "moreOptionsMenu": "Diğer Küçük Resim Seçenekleri Menüsü",
+      "enterPageNumbers": "Seçilecek sayfa numaralarını girin"
     },
     "thumbnailsControlOverlay": {
       "move": "Sayfaları taşı"
@@ -607,13 +666,13 @@
     },
     "settings": {
       "settings": "Ayarlar",
+      "searchSettings": "Arama Ayarları",
       "general": "Genel",
-      "keyboardShortcut": "Klavye kısayolu",
-      "advancedSetting": "Gelişmiş Ayarlar",
       "language": "Dil",
       "theme": "Tema",
       "darkMode": "Karanlık mod",
       "lightMode": "Işık modu",
+      "advancedSetting": "Gelişmiş Ayarlar",
       "viewing": "görüntüleme",
       "disableFadePageNavigationComponent": "Soldurma Sayfa Gezinme Bileşenini Devre Dışı Bırak",
       "disableFadePageNavigationComponentDesc": "Sayfa Gezinme Bileşenini her zaman ekranda tutun. Varsayılan davranış, belirli bir hareketsizlik süresinden sonra onu soldurmaktır.",
@@ -638,7 +697,52 @@
       "disablePageDeletionConfirmationModal": "Sayfa Silme Onayı Kalıcılığını Devre Dışı Bırak",
       "disablePageDeletionConfirmationModalDesc": "Küçük resim görünümünden bir sayfayı silerken onay modunu devre dışı bırakın",
       "disableMultiselect": "Çoklu Seçimi Devre Dışı Bırak",
-      "disableMultiselectDesc": "Sol küçük resim panelinde çoklu seçimi devre dışı bırakın"
+      "disableMultiselectDesc": "Sol küçük resim panelinde çoklu seçimi devre dışı bırakın",
+      "miscellaneous": "Çeşitli",
+      "keyboardShortcut": "Klavye kısayolu",
+      "command": "Emretmek",
+      "description": "Tanım",
+      "action": "Eylem",
+      "rotateDocumentClockwise": "Belgeyi saat yönünde döndür",
+      "rotateDocumentCounterclockwise": "Belgeyi saat yönünün tersine döndür",
+      "copyText": "Seçilen metni veya ek açıklamaları kopyala",
+      "pasteText": "Metin veya ek açıklamaları yapıştırın",
+      "undoChange": "Ek açıklama değişikliğini geri alma",
+      "redoChange": "Ek açıklama değişikliğini yeniden yapma",
+      "openFile": "Dosya seçiciyi aç",
+      "openSearch": "Arama yer paylaşımını aç",
+      "zoomIn": "Yakınlaştır",
+      "zoomOut": "Uzaklaştır",
+      "fitScreenWidth": "Belgeyi küçük bir ekranda (< 640 piksel) ekran genişliğine sığdırın, aksi halde orijinal boyutuna sığdırın",
+      "print": "Yazdır",
+      "bookmarkOpenPanel": "Bir sayfaya hızlıca yer işareti koyun ve yer işareti panelini açın",
+      "goToPreviousPage": "önceki sayfaya git",
+      "goToNextPage": "sonraki sayfaya git",
+      "goToPreviousPageArrowUp": "Tek düzen modunda (ArrowUp) önceki sayfaya git",
+      "goToNextPageArrowDown": "Tek düzen modunda sonraki sayfaya git (Aşağı Ok)",
+      "holdSwitchPan": "Pan moduna geçmek için basılı tutun ve önceki araca dönmek için bırakın",
+      "selectAnnotationEdit": "AnnotationEdit aracını seçin",
+      "selectPan": "Kaydırma aracını seçin",
+      "selectCreateArrowTool": "AnnotationCreateArrow aracını seçin",
+      "selectCreateCalloutTool": "AnnotationCreateCallout aracını seçin",
+      "selectEraserTool": "AnnotationEraser aracını seçin",
+      "selectCreateFreeHandTool": "AnnotationCreateFreeHand aracını seçin",
+      "selectCreateStampTool": "AnnotationCreateStamp aracını seçin",
+      "selectCreateLineTool": "AnnotationCreateLine aracını seçin",
+      "selectCreateStickyTool": "AnnotationCreateSticky aracını seçin",
+      "selectCreateEllipseTool": "AnnotationCreateEllipse aracını seçin",
+      "selectCreateRectangleTool": "AnnotationCreateRectangle aracını seçin",
+      "selectCreateRubberStampTool": "AnnotationCreateRubberStamp aracını seçin",
+      "selectCreateFreeTextTool": "AnnotationCreateFreeText aracını seçin",
+      "openSignatureModal": "İmza kipini veya yer paylaşımını açın",
+      "selectCreateTextSquigglyTool": "AnnotationCreateTextSquiggly aracını seçin",
+      "selectCreateTextHighlightTool": "AnnotationCreateTextHighlight aracını seçin",
+      "selectCreateTextStrikeoutTool": "AnnotationCreateTextStrikeout aracını seçin",
+      "selectCreateTextUnderlineTool": "AnnotationCreateTextUnderline aracını seçin",
+      "editKeyboardShorcut": "Klavye Kısayolunu Düzenle",
+      "setShorcut": "Kısayol Ayarla",
+      "pressKeyToSet": "Yeni kısayol ayarlamak için tuşuna veya tuşlarına basın.",
+      "shortcutAlreadyExists": "Yukarıdaki klavye kısayolu zaten var."
     }
   },
   "warning": {
@@ -673,6 +777,9 @@
       "deleteTitle": "Özel rengi sil",
       "deleteMessage": "Seçilen özel renk silinsin mi? Renk paletinizden kaldırılacaktır."
     },
+    "colorPalettePicker": {
+      "deleteTitle": "Özel rengi sil"
+    },
     "multiDeleteAnnotation": {
       "title": "Ek Açıklamalar Silinsin mi?",
       "message": "Silme işlemi tüm yorumları, yanıtları ve gruplandırmayı kaldırır ve geri alınamaz.\n\n Bu ek açıklamaları silmek istediğinizden emin misiniz?"
@@ -681,6 +788,10 @@
       "title": "İndirmeden kapatılsın mı?",
       "message": "Bu belgede yapılan değişiklikler var, çalışmanızı indirmeden kapatmak istediğinizden emin misiniz? Bu işlemi geri alamazsınız.",
       "rejectDownloadButton": "İndirmeden kapat"
+    },
+    "connectToURL": {
+      "title": "Güvenlik uyarısı",
+      "message": "Bu belge şuraya bağlanmaya çalışıyor:\n\n{{- uri}}\n\n Bu belgeye güveniyorsanız açmak için Onayla'yı tıklayın."
     }
   },
   "shortcut": {
@@ -973,6 +1084,18 @@
       "cancelMessage": "Seçilen tüm sayfaları kırpmayı iptal etmek istediğinizden emin misiniz?"
     }
   },
+  "snippingPopUp": {
+    "title": "Kesme Aracı",
+    "clipboard": "Panoya Kopyala",
+    "download": "İndir",
+    "cropAndRemove": "Kırp ve Kaldır",
+    "snippingModal": {
+      "applyTitle": "Kesmeyi Uygula?",
+      "applyMessage": "Bu eylem belirtilen alanı kalıcı olarak keser ve diğer sayfaları kaldırır. Geri alınamaz.",
+      "cancelTitle": "Kesmeyi İptal Et?",
+      "cancelMessage": "Kesmeyi durdurmak istediğinizden emin misiniz?"
+    }
+  },
   "textEditingPanel": {
     "paragraph": "Paragraf",
     "text": "Metin"
@@ -1015,8 +1138,54 @@
     "watermarkOptions": "Filigran Seçenekleri",
     "watermarks": "filigranlar"
   },
+  "portfolio": {
+    "createPDFPortfolio": "PDF Portföyü Oluştur",
+    "uploadFiles": "Dosyaları yükle",
+    "uploadFolder": "Klasörü Yükle",
+    "addFiles": "Dosya Ekle",
+    "addFile": "Dosya Ekle",
+    "addFolder": "Klasörü eklemek",
+    "createFolder": "Klasör oluşturun",
+    "portfolioPanelTitle": "PDF Portföyü",
+    "portfolioNewFolder": "Yeni dosya",
+    "portfolioFolderPlaceholder": "Klasör adı",
+    "portfolioFilePlaceholder": "Dosya adı",
+    "folderNameAlreadyExists": "Klasör adı zaten var",
+    "fileNameAlreadyExists": "Dosya adı zaten var",
+    "openFile": "Yeni sekmede aç",
+    "fileAlreadyExists": "Dosya zaten mevcut",
+    "fileAlreadyExistsMessage": "\"{{fileName}}\" dosyası portföyde zaten var.",
+    "deletePortfolio": "\"{{fileName}}\" dosyasını silmek istediğinizden emin misiniz?",
+    "reselect": "yeniden seç"
+  },
   "languageModal": {
     "selectLanguage": "Dil Seçin"
+  },
+  "officeEditor": {
+    "bold": "Gözü pek",
+    "italic": "İtalik",
+    "underline": "Altını çizmek",
+    "textColor": "metin rengi",
+    "leftAlign": "Sola hizala",
+    "centerAlign": "Ortaya hizala",
+    "rightAlign": "sağa hizala",
+    "justify": "Savunmak",
+    "lineSpacing": "Satır ve paragraf aralığı",
+    "bulletList": "Maddeli liste",
+    "numberList": "Numaralı liste",
+    "decreaseIndent": "Girintiyi azalt",
+    "increaseIndent": "Girintiyi artır",
+    "insertLink": "Bağlantı ekle",
+    "insertImage": "Resim ekle",
+    "table": "Masa",
+    "insertRowAbove": "Yukarıya Satır Ekle",
+    "insertRowBelow": "Aşağıya Satır Ekle",
+    "insertColumnRight": "Sağa Sütun Ekle",
+    "insertColumnLeft": "Sola Sütun Ekle",
+    "deleteRow": "Sırayı sil",
+    "deleteColumn": "Sütunu Sil",
+    "deleteTable": "Tabloyu Sil",
+    "notSupportedOnMobile": "Office düzenlemesi mobil cihazlarda desteklenmez."
   },
   "insertPageModal": {
     "title": "Yeni Sayfa Ekle",
@@ -1100,6 +1269,26 @@
     "watermark": "Filigran",
     "addWatermark": "Filigran ekle",
     "save": "Dosyayı kaydet",
-    "pageError": "Geçersiz sayfa. Geçerli sayfa aralıkları 1 -"
+    "pageError": "Geçersiz sayfa. Geçerli sayfa aralıkları 1 -",
+    "fileNameCannotBeEmpty": "Dosya Adı boş olamaz"
+  },
+  "filePicker": {
+    "dragAndDrop": "Dosyanızı buraya sürükleyip bırakın",
+    "selectFile": "dosyanızı buradan seçin",
+    "or": "Veya"
+  },
+  "stylePanel": {
+    "headings": {
+      "styles": "Stiller",
+      "annotation": "Dipnot",
+      "annotations": "Ek açıklamalar",
+      "tool": "Alet",
+      "textStyles": "Metin Stilleri",
+      "currentColor": "Mevcut Renk",
+      "customColors": "Özel renkler"
+    },
+    "addColorToCustom": "Özel renklere ekle",
+    "noToolSelected": "Araç özelliklerini görüntülemek için bir araç seçin",
+    "noToolStyle": "Araç herhangi bir stil özelliği içermiyor."
   }
 }
